@@ -18,6 +18,12 @@ public class DLL_Main12 {
 
         System.out.println("\nSize : " + dll.size());
         System.out.println("=============================================");
+        System.out.println("Data awal pada Linked Lists adalah: " + dll.getFirst());
+        System.out.println("Data akhir pada Linked Lists adalah: " + dll.getLast());
+        System.out.println("Data indeks ke-1 pada Linked Lists adalah: " + dll.get(1));
+
+        System.out.println("\nSize : " + dll.size());
+        System.out.println("=============================================");
         dll.clear();
         dll.print();
         System.out.println("\nSize : " +dll.size());
